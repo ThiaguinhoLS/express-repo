@@ -1,0 +1,12 @@
+{
+  "name": "minimal-application",
+  "version": "1.0.0",
+  "description": "Minimal Application with express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ThiaguinhoLS",
+  "license": "ISC"
+}
