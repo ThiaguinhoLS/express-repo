@@ -1,0 +1,27 @@
+{
+  "name": "api-with-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=test nodemon server.js",
+    "start": "node server.js",
+    "test-integration": "NODE_ENV=test mocha --opts test/test-integration/mocha.opts"
+  },
+  "keywords": [],
+  "author": "ThiaguinhoLS",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "config": "^3.0.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.14"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10",
+    "supertest": "^3.4.2"
+  }
+}
