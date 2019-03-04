@@ -1,0 +1,6 @@
+{
+  "database": {
+    "url": "mongodb://localhost:27017/server-side-test"
+  },
+  "secret": "S3cr3t"
+}

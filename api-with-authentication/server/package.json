@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server-side in application",
+  "main": "index.js",
+  "scripts": {
+    "test-unit": "NODE_ENV=test mocha",
+    "test-integration": "NODE_ENV=test mocha",
+    "dev": "NODE_ENV=development nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "ThiaguinhoLS <>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "config": "^3.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.15",
+    "morgan": "^1.9.1",
+    "rotating-file-stream": "^1.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.1",
+    "nodemon": "^1.18.10",
+    "supertest": "^3.4.2"
+  }
+}

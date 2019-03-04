@@ -1,0 +1,4 @@
+--recursive
+--require test/helpers.js
+--timeout 10000
+--exit
